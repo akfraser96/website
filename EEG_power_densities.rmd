@@ -25,7 +25,7 @@ Participants performed aircraft flight simulations using virtual reality. The di
 ### The Emotiv Epoc
 This is a 14 channel portable EEG system. Characteristics of this system benefits research looking at dynamic tasks. The photos below were taken from Duvanige et al., 2013 [link] (https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-12-56)
 
-```{r, warning = F, message = F, echo=FALSE, error=FALSE, results='hide',fig.keep='all', fig.height= 6, fig.align='center', fig.width= 16}
+```{r, warning = F, message = F, echo=FALSE, error=FALSE, results='hide',fig.keep='all', fig.height= 6, fig.align='center'}
 par(mfrow=c(1,2))
 
 im <- load.image("C:/Users/akfra/Documents/EPOC_IGN.jpg")
