@@ -1,0 +1,14 @@
+---
+name: "my-website"
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: Home.html
+    - text: "Aviation Safety"
+      href: index.html
+    - text: "EEG Power Density Analysis Using R"
+      href: EEG_power_densities.html
+    - text: "EEG Feature Selection Using MATLAB"  
+      href: "feature_selection.html"
+---

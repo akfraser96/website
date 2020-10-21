@@ -1,0 +1,26 @@
+---
+title: "Welcome!"
+output: html_document
+---
+
+
+
+### What is this??
+
+
+This website displays some of the data projects I created for myself. These projects were performed to gather experience in evaluating messy data and to develop tools in statistical programming, and visualizing & reporting data. Publishing these projects on github was further practice in using rmarkdown for data transparency and an introduction into web development. 
+
+I am conducting research on the mental effort of pilots, evaluating the thesis that pilots can easily become mentally "overloaded" and that this is significant to the rate of accidents and fatalities observed particularly in general aviation. I collected electroencephalography (EEG) data from participants while they performed VR flight simulations and underwent changes in mental workload (i.e. flight difficulty). 
+
+
+```{r, warning = F, message = F, echo=FALSE, error=FALSE, results='hide',fig.keep='all', fig.height= 6, fig.align='center', fig.width= 16}
+library("imager")
+
+par(mfrow=c(1,3))
+im <- load.image("C:/Users/akfra/Pictures/Cessna-Skyhawk.jpg")
+plot(im,bty='n', axes = F) 
+im <- load.image("C:/Users/akfra/Pictures/sim.jpg")
+plot(im,bty='n', axes = F) 
+im <- load.image("C:/Users/akfra/Pictures/emotiv.jpg")
+plot(im,bty='n', axes = F) 
+```
